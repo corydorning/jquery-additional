@@ -1,18 +1,22 @@
 {
   "name": "jquery-additional",
+  "main": "jquery-additional.js",
   "version": "1.0.0",
+  "homepage": "https://github.com/corydorning/jquery-additional",
   "authors": [
     "Cory Dorning <cory@dorning.me>"
   ],
   "description": "The additional plugin allows you to hide extra content and display it by clicking an anchor.  You can set the event type, the anchors target, and show how many you want visible through the data attribute.",
-  "main": "jquery-additional.js",
-  "moduleType": [
-    "globals"
-  ],
   "keywords": [
     "jquery",
     "additional"
   ],
   "license": "MIT",
-  "homepage": "The additional plugin allows you to hide extra content and display it by clicking an anchor.  You can set the event type, the anchors target, and show how many you want visible through the data attribute."
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
